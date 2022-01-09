@@ -1,0 +1,63 @@
+
+                                     /* background image */
+	body
+	   {
+		background-image:url("MyTravelWebsite/images/background4.jpg");
+	  background-size:cover;
+		background-position:center;
+		}
+     /* navigation menu  */
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000ff;
+    }
+    li {
+    float: left;
+       }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+        }
+
+    li a:hover {
+         background-color:skyblue;
+               }
+                          /* Header/Logo Title */
+
+         .header1{
+            padding: 6px;
+            text-align: center;
+            height: 55px;
+            color: white;
+            font-size: 15px;
+            background: skyblue;
+            }
+               /*Header font style*/
+
+    h1.Agencycontact{
+        font: italic 40px Georgia, serif;
+        text-align:center;
+         color: brown;
+        }
+    h1.AgentInfo{
+        font: italic 40px Georgia, serif;
+        text-align:center;
+        color: brown;
+        }
+
+	                   /*contact list styling */
+       ol.li
+       {
+        font: italic 20px Georgia, serif;
+        text-align:center;
+        color: blue;
+
+
+       }

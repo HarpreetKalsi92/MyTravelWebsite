@@ -1,0 +1,103 @@
+     body                        /* background image */
+        {
+        background-image:url("/images/index.jpg");
+        background-size:cover;
+        background-position:center;
+        }
+                                 /* navigation */
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+         width: 100%;
+        overflow: hidden;
+        background-color: #0000ff;
+        }
+
+    li {
+        float: left;
+       }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+		                                     /* header  */
+
+    li a:hover
+	    {
+        background-color: #00ffff;
+
+        }
+
+	    .header{
+        padding: 6px;
+        margin: 0px;
+        text-align: center;
+        height: 200px;
+        width: 99%;
+        /*background-image:url("/images/welcome.jpg");*/
+        background-repeat: no-repeat;
+        color:white;
+        font-size: 20px;
+        }
+
+
+
+                          /*screen resolution  */
+
+    @media only screen and (max-width: 600px) {
+        .header {
+         height: 100%;
+
+        }
+        }
+                           /*header font style */
+    h1.a{
+        font: italic 35px Georgia, serif;
+        }
+
+                           /* images styling that  beside the decription table in div */
+
+    img.photo_img {
+	     max-width: 500px;
+		display: inline;
+		/*float: right;*/
+
+	}
+                         /*description and images  div styling*/
+    .photobox {
+        height:250px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+
+
+
+    }
+
+    .greetings {
+        height: 150px;
+        text-align: center;
+        font: italic Bold 40px Georgia, serif;
+        color: brown;
+        background-image:url("../greetingimg.jpg");
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 05px;
+
+    }
+
+    .txtBold {
+        /*font-weight: bold;*/
+        font: italic Bold 25px Georgia, serif;
+        color: red;
+
+    }
+    .txtItal {
+        font-style: italic;
+    }

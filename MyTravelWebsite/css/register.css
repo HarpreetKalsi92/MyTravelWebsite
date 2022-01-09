@@ -1,0 +1,65 @@
+        body             /*background image*/
+			{
+				background-image:url("/images/register.jpg");
+				background-size:cover;
+				background-position:center;
+			}
+	                    /* navigation part*/
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000ff;
+    }
+
+    li {
+    float: left;
+       }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+        }
+
+    li a:hover {
+         background-color:skyblue;
+               }
+                         /* agency title*/
+     /* .header{
+        padding: 6px;
+         margin: 0px;
+        text-align: center;
+        height: 200px;
+        width: 99%;
+        background-image:url("../background.jpg");
+        background-repeat: no-repeat;
+        color: white;
+        font-size: 20px;
+        } */
+                    /* header register your trip*/
+   .header1 {
+        padding: 6px;
+        text-align: center;
+        background: skyblue;
+        color: white;
+		    font-size: 15px;
+		    height:55px;
+             }
+
+                   /*table border,font style and font size using css*/
+    table {
+	    border:5px solid #000;
+		padding: 20px;
+	    border-color:lightblue;
+	    font-size:25px;
+	    border-spacing: 15px;
+
+		  }
+		          /* input fields color */
+    input {
+		background-color: lightblue;
+	    }

@@ -1,0 +1,46 @@
+ body             /*background image*/
+			{
+				background-image:url("/images/linksimage.jpg");
+				background-size:cover;
+				background-position:center;
+			}
+	                    /* navigation part*/
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000ff;
+    }
+
+    li {
+    float: left;
+       }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+        }
+
+    li a:hover {
+         background-color:skyblue;
+               }
+                    /* Header  Title */
+
+
+    .header {
+        padding: 2px;
+        text-align: center;
+        background: skyblue;
+        color: white;
+		    font-size: 20px;
+		    height:55px;
+        /* padding-bottom: 47px; */
+                 }
+
+    table .table {
+        margin-top: 200;
+}
